@@ -1,0 +1,51 @@
+#country_div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+#country_details{
+    font-family: Cambria;
+    text-align: center;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: black;
+    margin: 1% 20%;
+    font-size: 25px;
+    display: none;
+}
+#country_details img{
+    height: 300px;
+    width: 500px
+}
+#country_details button{
+    margin-bottom: 30px;
+    width: 10%;
+}
+.small_div{
+    font-family: Cambria;
+    text-align: center;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    color: black;
+}
+.country_name{
+    font-size: 30px;
+}
+.country_capital{
+    font-size: 20px;
+}
+.country_flag{
+    height: 30%;
+    width: 50%;
+    margin-top: 20px;
+}
+button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 30%;
+    font-family: Cambria;
+}
